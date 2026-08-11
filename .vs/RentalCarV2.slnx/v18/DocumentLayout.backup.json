@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET Course\\My personal projects\\RentalCarV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A192B1D-90BC-2ABE-4DE2-FE042B7EB8D8}|RentalCar.API\\RentalCar.API.csproj|d:\\.net course\\my personal projects\\rentalcarv2\\rentalcar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A192B1D-90BC-2ABE-4DE2-FE042B7EB8D8}|RentalCar.API\\RentalCar.API.csproj|solutionrelative:rentalcar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5A4BF9-DC7E-1713-1612-AA78CD68ADD2}|RentalCar.CrossCutting\\RentalCar.CrossCutting.csproj|d:\\.net course\\my personal projects\\rentalcarv2\\rentalcar.crosscutting\\ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5A4BF9-DC7E-1713-1612-AA78CD68ADD2}|RentalCar.CrossCutting\\RentalCar.CrossCutting.csproj|solutionrelative:rentalcar.crosscutting\\ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A192B1D-90BC-2ABE-4DE2-FE042B7EB8D8}|RentalCar.API\\RentalCar.API.csproj|d:\\.net course\\my personal projects\\rentalcarv2\\rentalcar.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A192B1D-90BC-2ABE-4DE2-FE042B7EB8D8}|RentalCar.API\\RentalCar.API.csproj|solutionrelative:rentalcar.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 245,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionAPI.cs",
+              "DocumentMoniker": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "RelativeDocumentMoniker": "RentalCar.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "ToolTip": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "RelativeToolTip": "RentalCar.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T12:40:36.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RentalCar.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RentalCar.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswI0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:51:58.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RentalCar.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\.NET Course\\My personal projects\\RentalCarV2\\RentalCar.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RentalCar.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T19:38:03.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

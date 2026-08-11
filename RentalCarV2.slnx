@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="D:/.NET Course/My personal projects/RentalCarV2/RentalCar.API/RentalCar.API.csproj" />
+  <Project Path="D:/.NET Course/My personal projects/RentalCarV2/RentalCar.Application/RentalCar.Application.csproj" />
+  <Project Path="D:/.NET Course/My personal projects/RentalCarV2/RentalCar.CrossCutting/RentalCar.CrossCutting.csproj" />
+  <Project Path="D:/.NET Course/My personal projects/RentalCarV2/RentalCar.Domain/RentalCar.Domain.csproj" />
+  <Project Path="D:/.NET Course/My personal projects/RentalCarV2/RentalCar.Infraestructure/RentalCar.Infraestructure.csproj" />
+  <Project Path="RentalCar.Tests/RentalCar.Tests.csproj" Id="903eb996-7887-4b3c-9d82-d35b018614c7" />
+</Solution>

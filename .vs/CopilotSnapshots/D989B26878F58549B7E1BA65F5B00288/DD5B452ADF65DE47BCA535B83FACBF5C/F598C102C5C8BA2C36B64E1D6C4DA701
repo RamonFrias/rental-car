@@ -1,0 +1,55 @@
+﻿using RentalCar.Domain.ValueObjects;
+using FluentAssertions;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace RentalCar.Tests.Domain.ValueObjects
+{
+    public class LicensePlateUnitTest
+    {
+        [Fact]
+        public void LicensePlate_ShouldBeValid_WhenFormatIsCorrect()
+        {
+            // Arrange
+            var validLicensePlate = "ABC-1234";
+            // Act
+            var licensePlate = new LicensePlate(validLicensePlate);
+            // Assert
+            licensePlate.Value.Should().Be(validLicensePlate);
+        }
+
+        [Fact]
+        public void LicensePlate_ShouldThrowDomainException_WhenFormatIsIncorrect()
+        {
+            // Arrange
+            var invalidLicensePlate = "INVALID";
+            // Act
+            var licensePlate = new LicensePlate(invalidLicensePlate);
+            //Assert
+            licensePlate.Should().Throw<Exception>().WithMessage("Invalid license plate format.");
+        }
+
+        [Fact]
+        public void LiscensePlate_ShouldThrowDomainException_WhenValueIsNull()
+        {
+            // Arrange
+            var invalidLicensePlate = null as string;
+            // Act
+            var licensePlate = new LicensePlate(invalidLicensePlate);
+            // Assert
+            licensePlate.Should().Throw<Exception>().WithMessage("License plate cannot be null or whitespace.");
+        }
+
+        [Fact]
+        public void LicensePlate_ShouldThrowDomainException_WhenValueIsEmpty()
+        {
+            // Arrange
+            var invalidLicensePlate = "";
+            // Act
+            var licensePlate = new LicensePlate(invalidLicensePlate);
+            // Assert
+            licensePlate.Should().Throw<Exception>().WithMessage("License plate cannot be null or whitespace.");
+        }
+    }
+}
